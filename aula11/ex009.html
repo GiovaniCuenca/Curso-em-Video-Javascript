@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    body {
+      background-color: #8C386D;
+    }
+    input {
+      background-color: #50406B;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      border-color: #E5CCCA;
+      border-style: solid;
+      font: 10pt verdana;
+      color: white;
+    }
+  
+  </style>
+</head>
+<body>
+  <input type="text" id="nome" placeholder="Nome"></br>
+  <input type="text" id="sobrenome" placeholder="Sobrenome"></br>
+  <input type="text" id="pais" placeholder="País"></br>
+  <input type="button" onclick="resultado()" value="Enviar Formulário">
+  
+  <script>
+    function resultado() {
+      var n1 = window.document.querySelector('input#nome').value;
+      var n2 = window.document.querySelector('input#sobrenome').value;
+      var n3 = window.document.querySelector('input#pais');
+
+      if (n3 == 'Brasil') {
+        window.alert(`${n1} ${n2} é Brasileiro!`)
+      } else {
+        window.alert(`${n1} ${n2} é Gringo!`)
+      }
+    }
+  </script>
+</body>
+</html>
