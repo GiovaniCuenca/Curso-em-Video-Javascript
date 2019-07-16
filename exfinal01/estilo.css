@@ -1,0 +1,57 @@
+body {
+    background-color: #76BEE3;
+    font-family: Nunito;
+    font-size: 15pt;
+    color: #F8FB60;
+    text-align: center;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+section {
+    background-color: #E8EB45;
+    border-radius: 10px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+div {
+    color: rgb(31, 81, 112);
+}
+
+input#inputNumber {
+    border: 2px solid rgb(31, 81, 112);
+}
+
+input#buttonAdicionar {
+    background-color: rgb(31, 81, 112);
+    border: 2px solid rgb(31, 81, 112);
+    color: white;
+    font-family: Nunito;
+    font-size: 10pt;
+}
+
+input#buttonFinalizar {
+    background-color: rgb(31, 81, 112);
+    border: 2px solid rgb(31, 81, 112);
+    color: white;
+    font-family: Nunito;
+    font-size: 10pt;
+}
+
+
+select#selNumeros{
+    border: 2px solid rgb(31, 81, 112);
+    width: 200px;
+}
+
+div#res {
+    text-align: left;
+    padding: 15px;
+}
+
+footer {
+    font-style: italic;
+}
